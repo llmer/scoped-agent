@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "scoped-agent",
+  "version": "0.1.0",
+  "description": "Least privilege for coding agents: time-boxed, path-scoped, auto-revoked tool access with a full audit log.",
+  "author": {
+    "name": "llmer"
+  },
+  "homepage": "https://github.com/llmer/scoped-agent",
+  "hooks": "./hooks/hooks.json",
+  "commands": "./commands"
+}
