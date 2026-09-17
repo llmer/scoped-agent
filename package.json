@@ -1,0 +1,16 @@
+{
+  "name": "scoped-agent",
+  "version": "0.1.0",
+  "description": "Run a Claude Code agent with zero standing permissions: time-boxed, path-scoped, auto-revoked, fully logged.",
+  "bin": {
+    "scoped-agent": "bin/scoped-agent.mjs"
+  },
+  "scripts": {
+    "test": "node test/pressure-test.mjs",
+    "demo": "bash run-demo.sh"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

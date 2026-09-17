@@ -1,0 +1,4 @@
+scope.json
+access-log.jsonl
+.scoped-agent/
+node_modules/
