@@ -1,0 +1,17 @@
+{
+  "name": "llmer",
+  "owner": {
+    "name": "llmer",
+    "url": "https://github.com/llmer"
+  },
+  "plugins": [
+    {
+      "name": "scoped-agent",
+      "source": "./",
+      "description": "Least privilege for coding agents: time-boxed, path-scoped, auto-revoked tool access for Claude Code, with a full audit log.",
+      "homepage": "https://github.com/llmer/scoped-agent",
+      "license": "MIT",
+      "keywords": ["security", "permissions", "least-privilege", "agent", "hooks", "audit"]
+    }
+  ]
+}
