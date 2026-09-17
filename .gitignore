@@ -2,3 +2,7 @@ scope.json
 access-log.jsonl
 .scoped-agent/
 node_modules/
+
+# demo build helpers (local only)
+demo/*.orig.cast
+demo/regen-cast.mjs
