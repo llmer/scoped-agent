@@ -4,6 +4,8 @@ Least privilege for coding agents. Every run gets a grant that is **path-scoped,
 
 It's a Claude Code **plugin**: a PreToolUse hook becomes the sole permission authority for the session, a SessionStart hook auto-mints the grant, and `/scope` sets it ad-hoc. No new infrastructure, no separate process to babysit.
 
+![scoped-agent: a coding agent fixes a test inside its granted scope, then gets blocked reaching outside the sandbox, with the full access log printed](demo/scoped-agent.gif)
+
 ```
 scoped-agent: granted [sandbox] for 300s (network off). every tool call is checked and logged.
 
